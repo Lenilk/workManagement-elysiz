@@ -6,5 +6,5 @@ export * from './Account';
 export * from './AccountInput';
 export * from './Verification';
 export * from './VerificationInput';
-export * from './Task';
 export * from './TaskInput';
+export * from './Task';
