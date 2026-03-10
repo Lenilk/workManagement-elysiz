@@ -1,0 +1,2 @@
+bun x --bun auth@latest generate
+bun x --bun auth@latest migrate
