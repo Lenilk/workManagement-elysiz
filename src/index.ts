@@ -41,7 +41,7 @@ const app = new Elysia()
   )
   .use(
     cors({
-      origin: "http://localhost:5173", // URL ของ Vite Frontend
+      origin: process.env.CLIENT_URL, // URL ของ Vite Frontend
       allowedHeaders: ["Content-Type", "Authorization"],
       methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
       credentials: true, // สำคัญมาก! สำหรับการส่ง Cookie/Session
